@@ -19,7 +19,7 @@ namespace CrudContratos.Controllers
             _context = context;
         }
 
-        // GET: Contratos
+        // GET: Contratos Hola 
         public async Task<IActionResult> Index()
         {
             return View(await _context.Contratos.ToListAsync());
