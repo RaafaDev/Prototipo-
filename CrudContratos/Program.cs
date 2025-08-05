@@ -1,9 +1,12 @@
-﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using CrudContratos.Data;
+using Microsoft.AspNetCore.Identity;
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<CrudContratosContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("CrudContratosContext") ?? throw new InvalidOperationException("Connection string 'CrudContratosContext' not found.")));
+
+builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true).AddEntityFrameworkStores<CrudContratosContext>();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
@@ -30,5 +33,5 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Index}/{id?}")
     .WithStaticAssets();
 
-
+app.MapRazorPages();
 app.Run();

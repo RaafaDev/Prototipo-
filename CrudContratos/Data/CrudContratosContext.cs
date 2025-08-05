@@ -1,19 +1,21 @@
-﻿using System;
+﻿using CrudContratos.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore; 
+using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
+using System.Diagnostics.Contracts;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.EntityFrameworkCore;
-using CrudContratos.Models;
 
 namespace CrudContratos.Data
 {
-    public class CrudContratosContext : DbContext
+    public class CrudContratosContext : IdentityDbContext
     {
-        public CrudContratosContext (DbContextOptions<CrudContratosContext> options)
+        public CrudContratosContext(DbContextOptions<CrudContratosContext> options)
             : base(options)
         {
         }
 
-        public DbSet<CrudContratos.Models.Contratos> Contratos { get; set; } = default!;
+        public DbSet<Contratos> Contratos { get; set; } = default!;
     }
 }

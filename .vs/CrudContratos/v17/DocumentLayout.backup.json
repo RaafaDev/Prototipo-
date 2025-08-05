@@ -1,18 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\laura.porras\\source\\repos\\CrudContratos\\",
+  "WorkspaceRootPath": "C:\\Users\\Maria.Castaneda\\source\\repos\\Prototipo-\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3F15FCAC-162F-4FDA-984E-6550D73F7868}|CrudContratos\\CrudContratos.csproj|c:\\users\\laura.porras\\source\\repos\\crudcontratos\\crudcontratos\\models\\contratos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F15FCAC-162F-4FDA-984E-6550D73F7868}|CrudContratos\\CrudContratos.csproj|solutionrelative:crudcontratos\\models\\contratos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3F15FCAC-162F-4FDA-984E-6550D73F7868}|CrudContratos\\CrudContratos.csproj|c:\\users\\maria.castaneda\\source\\repos\\prototipo-\\crudcontratos\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F15FCAC-162F-4FDA-984E-6550D73F7868}|CrudContratos\\CrudContratos.csproj|solutionrelative:crudcontratos\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F15FCAC-162F-4FDA-984E-6550D73F7868}|CrudContratos\\CrudContratos.csproj|c:\\users\\laura.porras\\source\\repos\\crudcontratos\\crudcontratos\\controllers\\contratoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F15FCAC-162F-4FDA-984E-6550D73F7868}|CrudContratos\\CrudContratos.csproj|solutionrelative:crudcontratos\\controllers\\contratoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3F15FCAC-162F-4FDA-984E-6550D73F7868}|CrudContratos\\CrudContratos.csproj|c:\\users\\maria.castaneda\\source\\repos\\prototipo-\\crudcontratos\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F15FCAC-162F-4FDA-984E-6550D73F7868}|CrudContratos\\CrudContratos.csproj|solutionrelative:crudcontratos\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F15FCAC-162F-4FDA-984E-6550D73F7868}|CrudContratos\\CrudContratos.csproj|c:\\users\\laura.porras\\source\\repos\\crudcontratos\\crudcontratos\\migrations\\20250804151111_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F15FCAC-162F-4FDA-984E-6550D73F7868}|CrudContratos\\CrudContratos.csproj|solutionrelative:crudcontratos\\migrations\\20250804151111_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3F15FCAC-162F-4FDA-984E-6550D73F7868}|CrudContratos\\CrudContratos.csproj|c:\\users\\maria.castaneda\\source\\repos\\prototipo-\\crudcontratos\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F15FCAC-162F-4FDA-984E-6550D73F7868}|CrudContratos\\CrudContratos.csproj|solutionrelative:crudcontratos\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F15FCAC-162F-4FDA-984E-6550D73F7868}|CrudContratos\\CrudContratos.csproj|c:\\users\\maria.castaneda\\source\\repos\\prototipo-\\crudcontratos\\wwwroot\\css\\auth\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{3F15FCAC-162F-4FDA-984E-6550D73F7868}|CrudContratos\\CrudContratos.csproj|solutionrelative:crudcontratos\\wwwroot\\css\\auth\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F15FCAC-162F-4FDA-984E-6550D73F7868}|CrudContratos\\CrudContratos.csproj|c:\\users\\maria.castaneda\\source\\repos\\prototipo-\\crudcontratos\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F15FCAC-162F-4FDA-984E-6550D73F7868}|CrudContratos\\CrudContratos.csproj|solutionrelative:crudcontratos\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F15FCAC-162F-4FDA-984E-6550D73F7868}|CrudContratos\\CrudContratos.csproj|c:\\users\\maria.castaneda\\source\\repos\\prototipo-\\crudcontratos\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{3F15FCAC-162F-4FDA-984E-6550D73F7868}|CrudContratos\\CrudContratos.csproj|solutionrelative:crudcontratos\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F15FCAC-162F-4FDA-984E-6550D73F7868}|CrudContratos\\CrudContratos.csproj|c:\\users\\maria.castaneda\\source\\repos\\prototipo-\\crudcontratos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3F15FCAC-162F-4FDA-984E-6550D73F7868}|CrudContratos\\CrudContratos.csproj|solutionrelative:crudcontratos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,41 +41,99 @@
           "SelectedChildIndex": 2,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "20250804151111_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\laura.porras\\source\\repos\\CrudContratos\\CrudContratos\\Migrations\\20250804151111_InitialCreate.cs",
-              "RelativeDocumentMoniker": "CrudContratos\\Migrations\\20250804151111_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\laura.porras\\source\\repos\\CrudContratos\\CrudContratos\\Migrations\\20250804151111_InitialCreate.cs",
-              "RelativeToolTip": "CrudContratos\\Migrations\\20250804151111_InitialCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T15:11:12.418Z",
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Maria.Castaneda\\source\\repos\\Prototipo-\\CrudContratos\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "CrudContratos\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\Maria.Castaneda\\source\\repos\\Prototipo-\\CrudContratos\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "CrudContratos\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-05T15:28:12.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Maria.Castaneda\\source\\repos\\Prototipo-\\CrudContratos\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CrudContratos\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Maria.Castaneda\\source\\repos\\Prototipo-\\CrudContratos\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CrudContratos\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-05T15:21:21.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "login.css",
+              "DocumentMoniker": "C:\\Users\\Maria.Castaneda\\source\\repos\\Prototipo-\\CrudContratos\\wwwroot\\css\\auth\\login.css",
+              "RelativeDocumentMoniker": "CrudContratos\\wwwroot\\css\\auth\\login.css",
+              "ToolTip": "C:\\Users\\Maria.Castaneda\\source\\repos\\Prototipo-\\CrudContratos\\wwwroot\\css\\auth\\login.css",
+              "RelativeToolTip": "CrudContratos\\wwwroot\\css\\auth\\login.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-08-05T15:00:25.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Maria.Castaneda\\source\\repos\\Prototipo-\\CrudContratos\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "CrudContratos\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Maria.Castaneda\\source\\repos\\Prototipo-\\CrudContratos\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "CrudContratos\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAQwJoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-08-05T14:50:07.075Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ContratosController.cs",
-              "DocumentMoniker": "C:\\Users\\laura.porras\\source\\repos\\CrudContratos\\CrudContratos\\Controllers\\ContratosController.cs",
-              "RelativeDocumentMoniker": "CrudContratos\\Controllers\\ContratosController.cs",
-              "ToolTip": "C:\\Users\\laura.porras\\source\\repos\\CrudContratos\\CrudContratos\\Controllers\\ContratosController.cs",
-              "RelativeToolTip": "CrudContratos\\Controllers\\ContratosController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T15:10:22.499Z"
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Maria.Castaneda\\source\\repos\\Prototipo-\\CrudContratos\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "CrudContratos\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Maria.Castaneda\\source\\repos\\Prototipo-\\CrudContratos\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "CrudContratos\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-05T14:47:51.62Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Contratos.cs",
-              "DocumentMoniker": "C:\\Users\\laura.porras\\source\\repos\\CrudContratos\\CrudContratos\\Models\\Contratos.cs",
-              "RelativeDocumentMoniker": "CrudContratos\\Models\\Contratos.cs",
-              "ToolTip": "C:\\Users\\laura.porras\\source\\repos\\CrudContratos\\CrudContratos\\Models\\Contratos.cs",
-              "RelativeToolTip": "CrudContratos\\Models\\Contratos.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T14:57:48.225Z"
+              "DocumentIndex": 4,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Maria.Castaneda\\source\\repos\\Prototipo-\\CrudContratos\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "CrudContratos\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Maria.Castaneda\\source\\repos\\Prototipo-\\CrudContratos\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "CrudContratos\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-05T14:34:59.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Maria.Castaneda\\source\\repos\\Prototipo-\\CrudContratos\\appsettings.json",
+              "RelativeDocumentMoniker": "CrudContratos\\appsettings.json",
+              "ToolTip": "C:\\Users\\Maria.Castaneda\\source\\repos\\Prototipo-\\CrudContratos\\appsettings.json",
+              "RelativeToolTip": "CrudContratos\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-05T13:45:01.059Z",
+              "EditorCaption": ""
             }
           ]
         }

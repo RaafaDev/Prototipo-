@@ -1,50 +1,236 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - CrudContratos</title>
-    <script type="importmap"></script>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/CrudContratos.styles.css" asp-append-version="true" />
+    <title>@ViewData["Title"] - CrudContractos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <style>
+        :root {
+            --azul-oscuro: #0C1E5B;
+            --amarillo: #FFD700;
+            --blanco: #ffffff;
+        }
+
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: var(--blanco);
+            color: var(--azul-oscuro);
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        /* NAVBAR SUPERIOR */
+        .top-navbar {
+            background-color: var(--azul-oscuro);
+            padding: 12px 25px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            height: 70px;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+        }
+
+        .menu-btn {
+            font-size: 1.6rem;
+            color: var(--amarillo);
+            cursor: pointer;
+            margin-right: 15px;
+        }
+
+        .navbar-brand {
+            font-size: 1.4rem;
+            font-weight: bold;
+            color: var(--amarillo);
+            text-decoration: none;
+        }
+
+        /* BOTÓN LOGIN */
+        .login-btn {
+            color: var(--amarillo);
+            font-size: 1.6rem;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            transition: color 0.3s;
+        }
+
+            .login-btn:hover {
+                color: var(--blanco);
+            }
+
+        /* SIDEBAR */
+        .sidebar {
+            position: fixed;
+            top: 70px;
+            left: -260px;
+            width: 240px;
+            height: calc(100% - 70px);
+            background: var(--azul-oscuro); /* Mismo color que la navbar */
+            box-shadow: 2px 0 8px rgba(0,0,0,0.3);
+            transition: left 0.3s ease;
+            z-index: 999;
+            padding-top: 20px;
+        }
+
+            .sidebar.active {
+                left: 0;
+            }
+
+            .sidebar ul {
+                list-style: none;
+                padding: 0;
+            }
+
+                .sidebar ul li a {
+                    display: flex;
+                    align-items: center;
+                    padding: 14px 20px;
+                    font-size: 1rem;
+                    color: var(--blanco); /* Texto blanco sobre azul */
+                    text-decoration: none;
+                    transition: all 0.3s;
+                    border-radius: 6px;
+                }
+
+                    .sidebar ul li a i {
+                        margin-right: 12px;
+                        font-size: 1.2rem;
+                    }
+
+                    /* Hover amarillo */
+                    .sidebar ul li a:hover {
+                        background: var(--amarillo);
+                        color: var(--azul-oscuro);
+                        box-shadow: 0 0 10px rgba(255,215,0,0.6); /* brillo suave */
+                        transform: translateX(5px); /* pequeño movimiento */
+                    }
+
+        /* CONTENIDO PRINCIPAL */
+        .main-content {
+            margin-top: 100px;
+            padding: 40px 20px;
+            flex: 1;
+            background: var(--blanco);
+            color: var(--azul-oscuro);
+            text-align: center;
+            border-radius: 12px;
+            margin: 120px auto 60px;
+            width: 80%;
+            max-width: 1000px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        }
+
+            .main-content h1 {
+                font-size: 2.4rem;
+                margin-bottom: 15px;
+                font-weight: bold;
+            }
+
+            .main-content p {
+                font-size: 1.1rem;
+                line-height: 1.6;
+                max-width: 650px;
+                margin: 0 auto 25px;
+            }
+
+        .btn-custom {
+            background: var(--amarillo);
+            color: var(--azul-oscuro);
+            font-size: 1rem;
+            padding: 10px 22px;
+            border-radius: 6px;
+            transition: all 0.3s;
+        }
+
+            .btn-custom:hover {
+                background: var(--azul-oscuro);
+                color: var(--blanco);
+            }
+
+        /* FOOTER */
+        footer {
+            background: var(--amarillo);
+            color: var(--azul-oscuro);
+            text-align: center;
+            padding: 12px;
+            margin-top: auto;
+            font-size: 0.9rem;
+            font-weight: bold;
+        }
+
+            footer a {
+                color: var(--azul-oscuro);
+                text-decoration: none;
+            }
+
+                footer a:hover {
+                    text-decoration: underline;
+                }
+    </style>
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">CrudContratos</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
+    <!-- Navbar Superior -->
+    <div class="top-navbar">
+        <div class="menu-btn" id="menuBtn">
+            <i class="bi bi-list"></i>
+        </div>
+        <a class="navbar-brand" href="/">
+            CrudContractos
+        </a>
+
+        <!-- Icono de Login (personita) -->
+        <a class="login-btn" asp-area="Identity" asp-page="/Account/Login">
+            <i class="bi bi-person-circle"></i>
+        </a>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2025 - CrudContratos - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
+    <!-- Sidebar -->
+    <div class="sidebar" id="sidebar">
+        <ul>
+            <li><a href="/Home/Index"><i class="bi bi-house-door-fill"></i> Inicio</a></li>
+            <li><a href="/Home/About"><i class="bi bi-info-circle-fill"></i> Nosotros</a></li>
+            <li><a href="/Services/Index"><i class="bi bi-gear-fill"></i> Servicios</a></li>
+            <li><a href="/Home/Contact"><i class="bi bi-envelope-fill"></i> Contacto</a></li>
+            <li><a href="/Contrataciones/Index"><i class="bi bi-briefcase-fill"></i> Contrataciones</a></li>
+            <li><a href="/Contactos/Index"><i class="bi bi-people-fill"></i> Contactos</a></li>
+            <li><a href="/Configuracion/Index"><i class="bi bi-sliders"></i> Configuración</a></li>
+        </ul>
+    </div>
+
+    <!-- Contenido principal -->
+    <div class="main-content" id="mainContent">
+        @RenderBody()
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        &copy; 2025 - CrudContractos - <a href="/Home/Privacy">Política de Privacidad</a>
     </footer>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    <!-- JS -->
+    <script>
+        document.getElementById('menuBtn').addEventListener('click', function() {
+            document.getElementById('sidebar').classList.toggle('active');
+        });
+
+        // Cerrar menú al hacer clic en un enlace
+        document.querySelectorAll('.sidebar a').forEach(link => {
+            link.addEventListener('click', () => {
+                document.getElementById('sidebar').classList.remove('active');
+            });
+        });
+    </script>
+
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
+    
