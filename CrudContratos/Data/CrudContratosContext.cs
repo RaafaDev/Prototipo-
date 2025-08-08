@@ -16,6 +16,7 @@ namespace CrudContratos.Data
         {
         }
 
-        public DbSet<Contratos> Contratos { get; set; } = default!;
+        public DbSet<CrudContratos.Models.Contratos> Contratos { get; set; } = default!;
+        public DbSet<Usuario> Usuario { get; set; } = default!;
     }
 }

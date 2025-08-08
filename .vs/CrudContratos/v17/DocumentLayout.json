@@ -1,8 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Maria.Castaneda\\source\\repos\\Prototipo-\\",
+  "WorkspaceRootPath": "T:\\OneDrive - CROWE CO SAS\\Escritorio\\Clon Prototipo\\Prototipo-\\",
   "Documents": [
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{3F15FCAC-162F-4FDA-984E-6550D73F7868}|CrudContratos\\CrudContratos.csproj|c:\\users\\maria.castaneda\\source\\repos\\prototipo-\\crudcontratos\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{3F15FCAC-162F-4FDA-984E-6550D73F7868}|CrudContratos\\CrudContratos.csproj|solutionrelative:crudcontratos\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
@@ -53,13 +54,57 @@
     {
       "AbsoluteMoniker": "D:0:0:{3F15FCAC-162F-4FDA-984E-6550D73F7868}|CrudContratos\\CrudContratos.csproj|c:\\users\\maria.castaneda\\source\\repos\\prototipo-\\crudcontratos\\controllers\\contratoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F15FCAC-162F-4FDA-984E-6550D73F7868}|CrudContratos\\CrudContratos.csproj|solutionrelative:crudcontratos\\controllers\\contratoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{3F15FCAC-162F-4FDA-984E-6550D73F7868}|CrudContratos\\CrudContratos.csproj|t:\\onedrive - crowe co sas\\escritorio\\clon prototipo\\prototipo-\\crudcontratos\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{3F15FCAC-162F-4FDA-984E-6550D73F7868}|CrudContratos\\CrudContratos.csproj|solutionrelative:crudcontratos\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+>>>>>>> 69cc9cc8ecf61afff04eeaefd1475d88c9709472
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F15FCAC-162F-4FDA-984E-6550D73F7868}|CrudContratos\\CrudContratos.csproj|c:\\users\\maria.castaneda\\source\\repos\\prototipo-\\crudcontratos\\models\\contratos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3F15FCAC-162F-4FDA-984E-6550D73F7868}|CrudContratos\\CrudContratos.csproj|t:\\onedrive - crowe co sas\\escritorio\\clon prototipo\\prototipo-\\crudcontratos\\views\\contratos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F15FCAC-162F-4FDA-984E-6550D73F7868}|CrudContratos\\CrudContratos.csproj|solutionrelative:crudcontratos\\views\\contratos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F15FCAC-162F-4FDA-984E-6550D73F7868}|CrudContratos\\CrudContratos.csproj|t:\\onedrive - crowe co sas\\escritorio\\clon prototipo\\prototipo-\\crudcontratos\\views\\usuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F15FCAC-162F-4FDA-984E-6550D73F7868}|CrudContratos\\CrudContratos.csproj|solutionrelative:crudcontratos\\views\\usuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F15FCAC-162F-4FDA-984E-6550D73F7868}|CrudContratos\\CrudContratos.csproj|t:\\onedrive - crowe co sas\\escritorio\\clon prototipo\\prototipo-\\crudcontratos\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F15FCAC-162F-4FDA-984E-6550D73F7868}|CrudContratos\\CrudContratos.csproj|solutionrelative:crudcontratos\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|T:\\OneDrive - CROWE CO SAS\\Escritorio\\Clon Prototipo\\Prototipo-\\CrudContratos\\Migrations\\20250804190820_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CrudContratos\\Migrations\\20250804190820_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F15FCAC-162F-4FDA-984E-6550D73F7868}|CrudContratos\\CrudContratos.csproj|t:\\onedrive - crowe co sas\\escritorio\\clon prototipo\\prototipo-\\crudcontratos\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F15FCAC-162F-4FDA-984E-6550D73F7868}|CrudContratos\\CrudContratos.csproj|solutionrelative:crudcontratos\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F15FCAC-162F-4FDA-984E-6550D73F7868}|CrudContratos\\CrudContratos.csproj|t:\\onedrive - crowe co sas\\escritorio\\clon prototipo\\prototipo-\\crudcontratos\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F15FCAC-162F-4FDA-984E-6550D73F7868}|CrudContratos\\CrudContratos.csproj|solutionrelative:crudcontratos\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F15FCAC-162F-4FDA-984E-6550D73F7868}|CrudContratos\\CrudContratos.csproj|t:\\onedrive - crowe co sas\\escritorio\\clon prototipo\\prototipo-\\crudcontratos\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F15FCAC-162F-4FDA-984E-6550D73F7868}|CrudContratos\\CrudContratos.csproj|solutionrelative:crudcontratos\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F15FCAC-162F-4FDA-984E-6550D73F7868}|CrudContratos\\CrudContratos.csproj|t:\\onedrive - crowe co sas\\escritorio\\clon prototipo\\prototipo-\\crudcontratos\\data\\crudcontratoscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F15FCAC-162F-4FDA-984E-6550D73F7868}|CrudContratos\\CrudContratos.csproj|solutionrelative:crudcontratos\\data\\crudcontratoscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|T:\\OneDrive - CROWE CO SAS\\Escritorio\\Clon Prototipo\\Prototipo-\\CrudContratos\\Migrations\\20250804185557_Usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CrudContratos\\Migrations\\20250804185557_Usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F15FCAC-162F-4FDA-984E-6550D73F7868}|CrudContratos\\CrudContratos.csproj|t:\\onedrive - crowe co sas\\escritorio\\clon prototipo\\prototipo-\\crudcontratos\\models\\contratos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F15FCAC-162F-4FDA-984E-6550D73F7868}|CrudContratos\\CrudContratos.csproj|solutionrelative:crudcontratos\\models\\contratos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F15FCAC-162F-4FDA-984E-6550D73F7868}|CrudContratos\\CrudContratos.csproj|c:\\users\\maria.castaneda\\source\\repos\\prototipo-\\crudcontratos\\migrations\\20250804151111_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3F15FCAC-162F-4FDA-984E-6550D73F7868}|CrudContratos\\CrudContratos.csproj|t:\\onedrive - crowe co sas\\escritorio\\clon prototipo\\prototipo-\\crudcontratos\\controllers\\contratoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F15FCAC-162F-4FDA-984E-6550D73F7868}|CrudContratos\\CrudContratos.csproj|solutionrelative:crudcontratos\\controllers\\contratoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F15FCAC-162F-4FDA-984E-6550D73F7868}|CrudContratos\\CrudContratos.csproj|t:\\onedrive - crowe co sas\\escritorio\\clon prototipo\\prototipo-\\crudcontratos\\migrations\\20250804151111_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F15FCAC-162F-4FDA-984E-6550D73F7868}|CrudContratos\\CrudContratos.csproj|solutionrelative:crudcontratos\\migrations\\20250804151111_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -70,7 +115,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
           "SelectedChildIndex": 9,
+=======
+          "SelectedChildIndex": 0,
+>>>>>>> 69cc9cc8ecf61afff04eeaefd1475d88c9709472
           "Children": [
             {
               "$type": "Bookmark",
@@ -156,6 +205,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 2,
               "Title": "Login.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\Maria.Castaneda\\source\\repos\\Prototipo-\\CrudContratos\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
@@ -266,22 +316,175 @@
             {
               "$type": "Document",
               "DocumentIndex": 12,
+=======
+              "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "T:\\OneDrive - CROWE CO SAS\\Escritorio\\Clon Prototipo\\Prototipo-\\CrudContratos\\.gitignore",
+              "RelativeDocumentMoniker": "CrudContratos\\.gitignore",
+              "ToolTip": "T:\\OneDrive - CROWE CO SAS\\Escritorio\\Clon Prototipo\\Prototipo-\\CrudContratos\\.gitignore",
+              "RelativeToolTip": "CrudContratos\\.gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-08-04T19:32:22.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "T:\\OneDrive - CROWE CO SAS\\Escritorio\\Clon Prototipo\\Prototipo-\\CrudContratos\\Views\\Contratos\\Index.cshtml",
+              "RelativeDocumentMoniker": "CrudContratos\\Views\\Contratos\\Index.cshtml",
+              "ToolTip": "T:\\OneDrive - CROWE CO SAS\\Escritorio\\Clon Prototipo\\Prototipo-\\CrudContratos\\Views\\Contratos\\Index.cshtml",
+              "RelativeToolTip": "CrudContratos\\Views\\Contratos\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-04T19:26:23.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "T:\\OneDrive - CROWE CO SAS\\Escritorio\\Clon Prototipo\\Prototipo-\\CrudContratos\\Views\\Usuarios\\Index.cshtml",
+              "RelativeDocumentMoniker": "CrudContratos\\Views\\Usuarios\\Index.cshtml",
+              "ToolTip": "T:\\OneDrive - CROWE CO SAS\\Escritorio\\Clon Prototipo\\Prototipo-\\CrudContratos\\Views\\Usuarios\\Index.cshtml",
+              "RelativeToolTip": "CrudContratos\\Views\\Usuarios\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-04T19:26:09.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "T:\\OneDrive - CROWE CO SAS\\Escritorio\\Clon Prototipo\\Prototipo-\\CrudContratos\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "CrudContratos\\Views\\Home\\Index.cshtml",
+              "ToolTip": "T:\\OneDrive - CROWE CO SAS\\Escritorio\\Clon Prototipo\\Prototipo-\\CrudContratos\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "CrudContratos\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-04T19:25:56.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20250804190820_Initial.cs",
+              "DocumentMoniker": "T:\\OneDrive - CROWE CO SAS\\Escritorio\\Clon Prototipo\\Prototipo-\\CrudContratos\\Migrations\\20250804190820_Initial.cs",
+              "RelativeDocumentMoniker": "CrudContratos\\Migrations\\20250804190820_Initial.cs",
+              "ToolTip": "T:\\OneDrive - CROWE CO SAS\\Escritorio\\Clon Prototipo\\Prototipo-\\CrudContratos\\Migrations\\20250804190820_Initial.cs",
+              "RelativeToolTip": "CrudContratos\\Migrations\\20250804190820_Initial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T19:08:20.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "T:\\OneDrive - CROWE CO SAS\\Escritorio\\Clon Prototipo\\Prototipo-\\CrudContratos\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CrudContratos\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "T:\\OneDrive - CROWE CO SAS\\Escritorio\\Clon Prototipo\\Prototipo-\\CrudContratos\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CrudContratos\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABYAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-04T19:01:49.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CrudContratosContext.cs",
+              "DocumentMoniker": "T:\\OneDrive - CROWE CO SAS\\Escritorio\\Clon Prototipo\\Prototipo-\\CrudContratos\\Data\\CrudContratosContext.cs",
+              "RelativeDocumentMoniker": "CrudContratos\\Data\\CrudContratosContext.cs",
+              "ToolTip": "T:\\OneDrive - CROWE CO SAS\\Escritorio\\Clon Prototipo\\Prototipo-\\CrudContratos\\Data\\CrudContratosContext.cs",
+              "RelativeToolTip": "CrudContratos\\Data\\CrudContratosContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T19:04:28.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "T:\\OneDrive - CROWE CO SAS\\Escritorio\\Clon Prototipo\\Prototipo-\\CrudContratos\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "CrudContratos\\Controllers\\UsuariosController.cs",
+              "ToolTip": "T:\\OneDrive - CROWE CO SAS\\Escritorio\\Clon Prototipo\\Prototipo-\\CrudContratos\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "CrudContratos\\Controllers\\UsuariosController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAADwvyAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T18:57:15.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20250804185557_Usuarios.cs",
+              "DocumentMoniker": "T:\\OneDrive - CROWE CO SAS\\Escritorio\\Clon Prototipo\\Prototipo-\\CrudContratos\\Migrations\\20250804185557_Usuarios.cs",
+              "RelativeDocumentMoniker": "CrudContratos\\Migrations\\20250804185557_Usuarios.cs",
+              "ToolTip": "T:\\OneDrive - CROWE CO SAS\\Escritorio\\Clon Prototipo\\Prototipo-\\CrudContratos\\Migrations\\20250804185557_Usuarios.cs",
+              "RelativeToolTip": "CrudContratos\\Migrations\\20250804185557_Usuarios.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T18:55:57.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "T:\\OneDrive - CROWE CO SAS\\Escritorio\\Clon Prototipo\\Prototipo-\\CrudContratos\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "CrudContratos\\Models\\Usuario.cs",
+              "ToolTip": "T:\\OneDrive - CROWE CO SAS\\Escritorio\\Clon Prototipo\\Prototipo-\\CrudContratos\\Models\\Usuario.cs",
+              "RelativeToolTip": "CrudContratos\\Models\\Usuario.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwAIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T18:54:29.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20250804151111_InitialCreate.cs",
+              "DocumentMoniker": "T:\\OneDrive - CROWE CO SAS\\Escritorio\\Clon Prototipo\\Prototipo-\\CrudContratos\\Migrations\\20250804151111_InitialCreate.cs",
+              "RelativeDocumentMoniker": "CrudContratos\\Migrations\\20250804151111_InitialCreate.cs",
+              "ToolTip": "T:\\OneDrive - CROWE CO SAS\\Escritorio\\Clon Prototipo\\Prototipo-\\CrudContratos\\Migrations\\20250804151111_InitialCreate.cs",
+              "RelativeToolTip": "CrudContratos\\Migrations\\20250804151111_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T15:11:12.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+>>>>>>> 69cc9cc8ecf61afff04eeaefd1475d88c9709472
               "Title": "ContratosController.cs",
-              "DocumentMoniker": "C:\\Users\\Maria.Castaneda\\source\\repos\\Prototipo-\\CrudContratos\\Controllers\\ContratosController.cs",
+              "DocumentMoniker": "T:\\OneDrive - CROWE CO SAS\\Escritorio\\Clon Prototipo\\Prototipo-\\CrudContratos\\Controllers\\ContratosController.cs",
               "RelativeDocumentMoniker": "CrudContratos\\Controllers\\ContratosController.cs",
-              "ToolTip": "C:\\Users\\Maria.Castaneda\\source\\repos\\Prototipo-\\CrudContratos\\Controllers\\ContratosController.cs",
+              "ToolTip": "T:\\OneDrive - CROWE CO SAS\\Escritorio\\Clon Prototipo\\Prototipo-\\CrudContratos\\Controllers\\ContratosController.cs",
               "RelativeToolTip": "CrudContratos\\Controllers\\ContratosController.cs",
+<<<<<<< HEAD
               "ViewState": "AgIAADIAAAAAAAAAAAAIwD0AAAAfAAAAAAAAAA==",
+=======
+              "ViewState": "AgIAAAwAAAAAAAAAAAAuwBUAAAAnAAAAAAAAAA==",
+>>>>>>> 69cc9cc8ecf61afff04eeaefd1475d88c9709472
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-04T15:10:22.499Z"
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 13,
+=======
+              "DocumentIndex": 10,
+>>>>>>> 69cc9cc8ecf61afff04eeaefd1475d88c9709472
               "Title": "Contratos.cs",
-              "DocumentMoniker": "C:\\Users\\Maria.Castaneda\\source\\repos\\Prototipo-\\CrudContratos\\Models\\Contratos.cs",
+              "DocumentMoniker": "T:\\OneDrive - CROWE CO SAS\\Escritorio\\Clon Prototipo\\Prototipo-\\CrudContratos\\Models\\Contratos.cs",
               "RelativeDocumentMoniker": "CrudContratos\\Models\\Contratos.cs",
-              "ToolTip": "C:\\Users\\Maria.Castaneda\\source\\repos\\Prototipo-\\CrudContratos\\Models\\Contratos.cs",
+              "ToolTip": "T:\\OneDrive - CROWE CO SAS\\Escritorio\\Clon Prototipo\\Prototipo-\\CrudContratos\\Models\\Contratos.cs",
               "RelativeToolTip": "CrudContratos\\Models\\Contratos.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
